@@ -1,0 +1,17 @@
+package com.oz.service;
+
+import java.time.DayOfWeek;
+import java.time.LocalTime;
+import java.util.List;
+import com.oz.domain.AreaComum;
+import com.oz.domain.RegraFuncionamento;
+
+public interface AreaComumService {
+	void cadastrarArea(String nome);
+
+	void atualizarRegra(Long areaId, DayOfWeek dia, LocalTime limite, boolean permitido);
+
+	List<AreaComum> listarTodas();
+
+	List<RegraFuncionamento> buscarRegrasDaArea(Long areaId);
+}
