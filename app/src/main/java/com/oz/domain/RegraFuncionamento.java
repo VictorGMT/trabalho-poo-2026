@@ -17,7 +17,7 @@ public class RegraFuncionamento {
         this.permitido = permitido;
         this.horarioLimite = horarioLimite;
         if (permitido && horarioLimite == null) {
-            throw new IllegalArgumentException("horarioLimite obrigatorio quando permitido=true");
+            throw new IllegalArgumentException("É preciso ter um horário limite e informar se é permitido");
         }
     }
 
@@ -40,19 +40,16 @@ public class RegraFuncionamento {
         }
 
         DayOfWeek diaReserva = reserva.getData().getDayOfWeek();
-        if (diaReserva == DayOfWeek.MONDAY) {
-            throw new RegraNegocioException("nao abrimos de segunda-feira");
-        }
 
         LocalTime limiteTime;
-        boolean meioDeSemana = diaReserva == DayOfWeek.TUESDAY || diaReserva == DayOfWeek.WEDNESDAY || diaReserva == DayOfWeek.THURSDAY;
+        boolean meioDeSemana = diaReserva == DayOfWeek.TUESDAY && permitido || diaReserva == DayOfWeek.WEDNESDAY && permitido || diaReserva == DayOfWeek.THURSDAY && permitido;
 
-        boolean fimDeSemana = diaReserva == DayOfWeek.FRIDAY || diaReserva == DayOfWeek.SATURDAY || diaReserva == DayOfWeek.SUNDAY;
+        boolean fimDeSemana = diaReserva == DayOfWeek.FRIDAY && permitido || diaReserva == DayOfWeek.SATURDAY && permitido || diaReserva == DayOfWeek.SUNDAY && permitido;
 
         if (meioDeSemana) {
-            limiteTime = LocalTime.of(23, 0);
+            limiteTime = LocalTime.of(getHorarioLimite().getHour(), getHorarioLimite().getMinute());
         } else if (fimDeSemana) {
-            limiteTime = LocalTime.of(1, 0);
+            limiteTime = LocalTime.of(getHorarioLimite().getHour(), getHorarioLimite().getMinute());
         } else {
             throw new RegraNegocioException("Dia invalido para reserva");
         }
