@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb4a2c7d-182f-4f6c-95ec-f9178218de0e" name="Changes" comment="" />
+    <list default="true" id="fb4a2c7d-182f-4f6c-95ec-f9178218de0e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oz/domain/AreaComum.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oz/domain/AreaComum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oz/domain/RegraFuncionamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oz/domain/RegraFuncionamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oz/service/AreaComumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oz/service/AreaComumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oz/service/impl/AreaComumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oz/service/impl/AreaComumServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oz/service/impl/ReservaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oz/service/impl/ReservaServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,9 @@
       <entry key="_C:/Users/tipoo/trabalho-poo-2026" value="3BHDgC3awNcHJsKMQzy7TlFWYEc" />
     </persistenceIdMap>
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="41" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -23,23 +32,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VictorGMT"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VictorGMT&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/VictorGMT/trabalho-poo-2026.git",
-    "accountId": "0ba014de-0b05-42dc-b342-bb75deb2c584"
+    "accountId": "84f3f2f5-293e-4789-87f0-792149debdeb"
   }
 }]]></component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\tipoo\.gradle\wrapper\dists\gradle-9.4.0-bin\lcvyxq3t37f6mx9miaydrrgs\gradle-9.4.0" javaHome="C:\Program Files\Microsoft\jdk-17.0.18.8-hotspot" gradleVersion="9.4.0" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2,
-  "fromUser": false
-}]]></component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\tipoo\.gradle\wrapper\dists\gradle-9.4.0-bin\lcvyxq3t37f6mx9miaydrrgs\gradle-9.4.0" javaHome="C:\Program Files\Java\jdk-17.0.18+8" gradleVersion="9.4.0" />
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3BHDgC3awNcHJsKMQzy7TlFWYEc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,21 +60,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.google.cloudcode.ide_session_index": "20260321_0001",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "to.speed.mode.migration.done": "true"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="trabalho-poo-2026" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="trabalho-poo-2026" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -72,8 +108,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774137210288</updated>
+      <workItem from="1774144790769" duration="8801000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
