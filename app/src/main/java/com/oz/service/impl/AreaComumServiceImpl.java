@@ -38,13 +38,13 @@ public class AreaComumServiceImpl implements AreaComumService {
 	}
 
 	@Override
-	public void atualizarRegra(Long areaId, DayOfWeek dia, LocalTime limite, boolean permitido) throws RegraNegocioException {
+	public void atualizarRegra(Long areaId, DayOfWeek dia, boolean permitido, LocalTime inicio, LocalTime limite) throws RegraNegocioException {
 		Optional<AreaComum> areaOptional = areaRepo.buscarPorId(areaId);
 		if (areaOptional.isEmpty()) {
 			throw new RegraNegocioException("Área comum não encontrada!");
 		}
 
-		RegraFuncionamento novaRegra = new RegraFuncionamento(areaId, dia, permitido, limite);
+		RegraFuncionamento novaRegra = new RegraFuncionamento(areaId, dia, permitido, inicio, limite);
 		regraRepo.atualizarRegra(novaRegra);
 	}
 

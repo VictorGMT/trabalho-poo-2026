@@ -11,7 +11,7 @@ public interface AreaComumService {
 	AreaComum cadastrarArea(String nome);
 	AreaComum atualizarArea(AreaComum area);
 
-	void atualizarRegra(Long areaId, DayOfWeek dia, LocalTime limite, boolean permitido) throws RegraNegocioException;
+	void atualizarRegra(Long areaId, DayOfWeek dia, boolean permitido, LocalTime inicio, LocalTime limite) throws RegraNegocioException;
 
 	List<AreaComum> listarTodas();
 
